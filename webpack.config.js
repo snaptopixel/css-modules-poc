@@ -14,7 +14,7 @@ var BUILD_PATH = './dist';
 var APP_PATH = path.resolve(ROOT_PATH, 'src');
 
 // LOADERS
-var cssPrefix = 'css?-mergeRules&importLoaders=2&modules';
+var cssPrefix = 'css?-mergeRules&importLoaders=2&modules&localIdentName=[folder]-[name]-[local]';
 var cssExtractLoader = {
   test: /\.(css|scss)$/,
   loader: ExtractTextPlugin.extract('style', cssPrefix + '!postcss!sass')
