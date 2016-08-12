@@ -1,0 +1,43 @@
+.none {
+  border-radius: 0;
+}
+
+.small {
+  border-radius: .125rem;
+}
+
+.medium {
+  border-radius: .25rem;
+}
+
+.large {
+  border-radius: .5rem;
+}
+
+.xlarge {
+  border-radius: 1rem;
+}
+
+.full {
+  border-radius: 100%;
+}
+
+.bottom {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.top {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.right {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.left {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}

@@ -1,0 +1,6 @@
+.component {
+  composes: medium from 'styles/rounded';
+  composes: medium hLarge from 'styles/padding';
+  composes: inlineBlock from 'styles/display';
+  background: lightgray;
+}
