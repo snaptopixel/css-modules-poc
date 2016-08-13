@@ -1,6 +1,9 @@
 import defaultStyles from './button.scss';
 
+// Dummy button component that doesn't do much of anything
 export default class Button {
+
+  // Passing styles in allows for customizing stuff
   constructor(label, styles=defaultStyles) {
     this.styles = styles;
     this.label = label;

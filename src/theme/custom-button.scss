@@ -1,5 +1,8 @@
+// Composes the button default style (which composes others) and adds some dumb stuff
 .component {
   composes: component from 'components/button.scss';
+  composes: bottom from 'styles/rounded.scss';
+  composes: hXLarge from 'styles/padding.scss';
   background: #FC6B08;
   font-family: 'Comic Sans MS';
 }

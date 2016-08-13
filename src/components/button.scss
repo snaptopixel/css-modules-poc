@@ -1,6 +1,7 @@
+// Composition of tiny styles, note these aren't mixins... the actual class names get exported
 .component {
-  composes: medium from 'styles/rounded';
-  composes: medium hLarge from 'styles/padding';
-  composes: inlineBlock from 'styles/display';
+  composes: medium from 'styles/rounded.scss';
+  composes: medium hLarge from 'styles/padding.scss';
+  composes: inlineBlock from 'styles/display.scss';
   background: lightgray;
 }
